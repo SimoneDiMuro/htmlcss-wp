@@ -21,9 +21,16 @@
 }
 
 .block{
+    height: 600px;
     background-image: url(../img/banner.jpg);
+    border-radius: 15px;
+    background-position: center;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+h2{
+    color: white;
 }
 
 .block2{
