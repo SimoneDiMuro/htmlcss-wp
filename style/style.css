@@ -22,40 +22,56 @@
 
 .block{
     height: 600px;
-    background-image: url(../img/banner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/banner.jpg);
     border-radius: 15px;
     background-position: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 400px;
+    padding-top: 400px;
+    padding-bottom: 60px;
 }
 
+.p1{
+    color: white;
+}
+
+.p2{
+    color: grey;
+}
 h2{
     color: white;
 }
 
-.block2{
-    height: 50px;
-    background-color: cornflowerblue;
-    margin-top: 30px;
+h3{
+    font-size: xx-large;
 }
 
-.main{
-    background-color: darkblue;
+.block2{
+    height: 50px;
+    margin-top: 30px;
 }
 
 .float1{
     float: left;
-    height: 500px;
+    height: 200px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
     width: 20%;
-    background-color: cornflowerblue;
     margin-top: 20px;
 }
 
 .float2{
     float: left;
-    height: 500px;
+    height: 200px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/banner-2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
     width: calc(60% - 60px);
-    background-color: cornflowerblue;
     margin: 0 30px;
     margin-top: 20px;
     
@@ -64,9 +80,12 @@ h2{
 
 .float3{
     float: left;
-    height: 500px;
+    height: 200px;
     width: 20%;
-    background-color: cornflowerblue;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/img-3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
