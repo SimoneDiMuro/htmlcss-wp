@@ -33,6 +33,7 @@
     padding-bottom: 60px;
 }
 
+
 .p1{
     color: white;
 }
@@ -55,45 +56,15 @@ h3{
 
 .float1{
     float: left;
-    height: 200px;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/img-1.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 15px;
     width: 20%;
     margin-top: 20px;
 }
 
 .float2{
     float: left;
-    height: 200px;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/banner-2.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 15px;
     width: calc(60% - 60px);
     margin: 0 30px;
     margin-top: 20px;
-    
-
-}
-
-.float3{
-    float: left;
-    height: 200px;
-    width: 20%;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/img-3.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.footer{
-    height: 50px;
-    margin-top: 10px;
-    text-align: center;
 }
 
 .logo{
@@ -109,4 +80,41 @@ li{
     display: inline-block;
     margin-top: 20px;
     margin-right: 10px;
+}
+
+.img1{
+    height: 200px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.img2{
+    height: 200px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/img-2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.img3{
+    height: 200px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/img-3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.text{
+    font-size: medium;
+    font-weight: 300;
+    margin-top: 20px;
+    color: gray;
+}
+
+.footer{
+    height: 50px;
+    margin-top: 30px;
+    text-align: center;
 }
